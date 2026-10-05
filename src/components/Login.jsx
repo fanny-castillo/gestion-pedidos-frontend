@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { api } from '../services/api';
 
 export default function Login({ onLoginSuccess }) {
-// usuario = variable del estado "value", setUsuario = funcion para poder modificar esa variable "onChange", useState('') = inicializa vacio 
   const [usuario, setUsuario] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
